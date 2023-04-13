@@ -10,6 +10,7 @@ UPDATE01
 \ccode{CMP-6012Y}
 \summary{This is a document for the progress report}
 \begin{document}
+BRANCH TEST
 	\section{Introduction}
 	What is the Conway's Game of Life? The Game of Life, invented by I.H. Conway is a cellular automaton, where an infinite universe is divided into cells. Each cell takes a state from a binary set and updates its state according to certain strict rules. All cells change their states simultaneously in discrete time. For Conway's Game of Life the cells have two states, usually called live and dead, and the rules are based on the number of neighbouring cells, which are alive. \cite{rendell2011universal} To build my own style Game of Life, I will need a background of knowing how to do coding and graphics.
 	
