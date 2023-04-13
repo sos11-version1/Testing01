@@ -1,0 +1,140 @@
+%This is the Progress report
+\documentclass[progress]{cmpreport}
+\usepackage{graphicx}
+\usepackage{rotating}
+%!TeX spellcheck =en_GB
+\title{Progress Report}
+\author{Lau Chung Him Nicky}
+\registration{100340165}
+\supervisor{Dr Vincent Moulton}
+\ccode{CMP-6012Y}
+\summary{This is a document for the progress report}
+\begin{document}
+	\section{Introduction}
+	What is the Conway's Game of Life? The Game of Life, invented by I.H. Conway is a cellular automaton, where an infinite universe is divided into cells. Each cell takes a state from a binary set and updates its state according to certain strict rules. All cells change their states simultaneously in discrete time. For Conway's Game of Life the cells have two states, usually called live and dead, and the rules are based on the number of neighbouring cells, which are alive. \cite{rendell2011universal} To build my own style Game of Life, I will need a background of knowing how to do coding and graphics.
+	
+	New parameters and variants will also be needed to add into the new game to make it more interesting to play with. To code the game, I am going to use python language to help me with it. I've found that Python is particular easy to use, as it is object-oriented, has high-level data structures built-in, and supports dynamic typing in conjunction with dynamic binding \cite{earle2020using}.
+	
+	After professor's recommendation and doing some researches on the internet, I have decided to use the Computer program \emph{Pygame} to help me for coding the game of life.
+	
+	\section{Aim and objective}
+	The overall project aim is to understand how the game of life works and the patterns of how cells populate and dead by changing initial start spawn point. Observation report will also need to be done after I create some of my own parameters. And finally I must add and create some different parameters and variants for the game of life to demonstrate and finalise the work.
+	
+	Short Term Objective:
+	\begin{itemize}
+		\item Learn the basics structures and rules of games of life.
+		\item Read more literatures and article on game of life.
+		\item Try to play out my own patterns of cells, and other scientist and mathematics patterns
+		\item Try to do coding for the game of life
+		\item Download python and pygame
+	\end{itemize}
+	
+	Long Term Objective:
+	\begin{itemize}
+		\item Get to design my own game of pattern.
+		\item Write observations of different of my own game patterns and study about it.
+		\item Learn how to code the game of life myself.
+		\item Add different parameters and variant to the game of life.
+		\item Try to do further research on the game of life, by understanding 3D model of the game of life.
+	\end{itemize}
+
+	\section{Methodology}
+	In general, my preference is to use a quantitative research methodology for doing the project. It quantify data and generalize result through the exploration of numeric patterns. This methodology would greatly helps me to gather more data and simplified the process of doing research, it also allow me to understand more knowledge of the game of life. \cite{tellis1997application}
+	
+	As for the project, one of the main objective is to create and observe how the cells live and die after people created them in the initial stage. This means I will have to learn how to code the game of life from scratch and totally understand how the programming works. This may contain multiple experiments and a lot of time to do. However the more data being collected from samples of the Conway's game of life, more knowledge on how the cells works and their patterns of movement will be understood. These data will be greatly helpful when doing further research on the parameter and variables about the game.
+	
+	The Conway game of life online version will give people a basic concept on how the cells work and help people to collect some starting data. However, it is more suitable to code a new version of game of life by hand, this is easier to observe and gain free and more reliable result, also people can add more function to the game and easily change parameters in the future.
+	
+		Watching some explanation tutorial video on youtube really helps me to understand the basic concept of the game of life and what kind of parameter I could add when it comes to the final version of game of life. I have learned a lot on how to code the game of life from youtube videos, my initial version of game of life is based on the youtube tutorials.
+	
+	\section{Implementation}
+	 After deciding what programming language I should use to code, I decide to use Visual Studio Code to help me with the coding. As I've been using it for my 3 years course and I am very familiar with it. For now I have implemented the basic structure of the game of life. The base game will generate random input into the game and follow the B3/S23 ground rule and have a boundary limit of 800(W), 600(H). Every time I run it, it will generate a random input and so I can observe different result and see how others cell going to their fixed neighbour and totally change their life.
+	  \begin{figure}[ht]
+	 	\centering
+	 	\fbox{
+	 		\includegraphics[width=0.5\textwidth]{code1}
+	 	}
+     	\fbox{
+ 		\includegraphics[width=0.5\textwidth]{code2}
+     	}
+        \fbox{
+      	\includegraphics[width=0.5\textwidth]{code3}
+        }
+	 	\caption{My coding} \label{myfig}
+	 	
+	 	 \fbox{
+	 		\includegraphics[width=0.5\textwidth]{code4}
+	 	}
+ 	    \caption{The three fixed code} \label{myfig2}
+ 	    
+	 \end{figure}
+  \begin{figure}[ht]
+ 	\centering
+  	  \fbox{
+ 	\includegraphics[width=0.5\textwidth]{pygame}
+ }
+ \fbox{
+ 	\includegraphics[width=0.5\textwidth]{pygame 2}
+ }
+ \fbox{
+ 	\includegraphics[width=0.5\textwidth]{pygame3}
+ }
+ \caption{Different result of the pygame} \label{myfig3}
+ 	 \end{figure}
+	 
+	 Most of the time cells will come to different part of still life and stop populating/spawning in the final stage. Some time, cells will keep on populating in a random patterns and never stop. And the rarest situation is that no cells alive when it come to the final stage. All cells are dead because of colliding with each other. The result I'd see from these are fascinating and helpful for my final design of the game, as they gave me different set of data to help me figure out what kind of variant and parameter I should add.
+	 
+	 Other then putting random input into the game, I've also code three different fixed input into the game that will show each result I talked about before, one showing an endless population, one showing multiple still life after generations and one that show all the cells are dead after certain generations. 
+	
+	 Although I've implement different input for the game, in this stage I still won't be able to allow user put their own input in the game. What I have done is a prototype, so technically my current version of game of life isn't a ``game'', it is more like a observation program. User aren't allow to do anything for the game except for looking at the result in this current stage. So this is what I am planning to do in the next stage,  I will code a ``Game of Life'' that will allow user to play and do different things, instead of just watch and observe the result. 
+		\clearpage
+	\section{Discussion}
+	After 12 weeks, I've read multiple literature and watched 10 videos about the game of life in youtube. All these readings have give me a deep knowledge of the game of life and let me understand there are multiple rules for the game. 
+	
+	At first, I have no idea what kind of programming language I would use to help me code. Fortunately after talking with my project supervisor, he gave me a lead on which language is suitable for me to use. He told me that pygame is the language best for beginners to code games, and that it will also be easier for me to use it for coding. Therefore, I accepted his suggestion and starting to use python language and pygame as my primary language for the coding of the game.
+	
+	Apart from giving me suggestion on pygame, my project supervisor also helps me a lot on how to use latex. For unknown reason, my latex auto-correction was in German instead of English. So all my writing are underline with red lines and I have no way to find out if my wording are correct or not. After a meeting with my supervisor, he helps me to find out what the problem is and fixed it for me. Finally I can see if my typing are correct or wrong now. My supervisor also teach me on how to implement bibliography when I am doing the literature review, this is very useful and have safe lots of time for me.
+	
+	After successfully download the python, I have met a huge problem. I can't download pygame for unknown reason. Normally when people download pygame through python they would use command prompt to help them. However when I do the same way as what people usually do, I've met an error that told me my pygame download unsuccessful. Therefore I have spent about 3 days trying to solve it, which cost me a lot of time before actually coding stuff. Luckily, I found a solution in the internet to help me fix it, yet I still have no idea why the error occur.
+	
+	In the future, I am going to do more experiment on my prototype and try to create a game that would allow user to actually interact with it, instead of just watching the process and result. I am also gonna add more function in to the game, for example, ``Clear Button'' to clear the all the cell, ``Run Button'' to run the program and ``Reverse Button'' to reverse cells to last generations. Other then the normal function, I will also try to implement different variables and parameters into the game. Also in the final stage, I might create a different life-like game to let user have various chose to play with. 
+	\clearpage
+	\section{Risks }
+	\begin{cmptable}[ht!]{Risks and Contigency Plan - Game of Life\label{table1}}
+		\begin{tabular}{p{3cm}rp{5cm}p{5cm}} \cline{1-4}
+			\hline
+			%First risk
+			Risks & Probability & Preparation & Response \\
+			\hline \hline
+			Graphics is required which I have never learned & High & Do researches on graphics & Watch tutorial videos from youtube and read articals online \\ \hline
+			%second risk
+			Lack of time & High & There are 7 months for me to finish the project, which include understanding what it is, doing researches and writing my own code & I will create a Ganchatt and timetable for the project, making myself well organize and won't spend too much time on irrelevent stuff \\
+			\hline
+			%third risk
+			Machine breaks down or memory sticks containing data lost  &  Low  & Frequently back up the data in multiple different drive/memory stick to prevent lost of data &  Back up data once a week in both computer and USB. I would also upload the files and data into the google drive to prevent any lost with computer crashing. \\ \hline
+			%forth risk 
+			No communication with the project adviser  & Very low & Send emails and organize online meeting with the project advise frequently and make sure we are sharing informations & I already meet with the project adviser and we have agreed to meet online using teams once per two weeks.\\ \hline
+			%fifth risk
+			Network failure  &  Medium & Make it a requirement that I should always ready to share my hotspot when I am doing research & Switch to hotspot \\ \hline
+			%sixth risk
+			Unable to download pygame & High & Find solutions in the internet, and try solving the problem & use the code from online and help me download it \\ \hline
+
+
+			
+		\end{tabular}
+	    \end{cmptable}
+    	\begin{cmptable}[ht!]{Risks and Contigency Plan - Game of Life\label{table2}}
+    	\begin{tabular}{p{3cm}rp{5cm}p{5cm}} \cline{1-4}
+    		\hline
+    			Risks & Probability & Preparation & Response \\
+    		\hline \hline
+    		Can't fulfil the scheduled work I wrote in the Ganchatt during Christmas & Medium & Try to finish work before Christmas & Spend the first week time on the project and try to rush everything \\ \hline
+    		%eighth risk
+    		Can't let the player/user interact with the game & Medium & Try to learn more information on the internet and find out the solution that allow player put input in it & Type in the code found on the internet, play with it and see how the result turns out\\ \hline
+    		%ninth risk
+    		Unable to add parameter and variables into the game & Medium & Try different ways of coding and watch tutorial video online to learn what to do & Try out the code from online and play with it, see how I could do some changes with it.  
+    			\end{tabular}
+    	\end{cmptable}
+    \clearpage
+	\bibliography{reportbib}
+\end{document}
