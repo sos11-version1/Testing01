@@ -1,4 +1,4 @@
-%This is the Progress report
+
 \documentclass[progress]{cmpreport}
 \usepackage{graphicx}
 \usepackage{rotating}
